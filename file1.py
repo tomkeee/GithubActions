@@ -1,7 +1,7 @@
 print("Hello world")
 
 
-def add(x, y) -> int:
+def add(x: int, y: int) -> int:
     return x + y
 
 
