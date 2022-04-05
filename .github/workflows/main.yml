@@ -12,4 +12,4 @@ jobs:
         python-version: 3.9
     - run: pip install --upgrade pipenv
     - run: pipenv install mypy==v0.902
-    - run: mypy --strict $(git ls-files '*.py')
+    - run: pipenv run mypy --strict $(git ls-files '*.py')
